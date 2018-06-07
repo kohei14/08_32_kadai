@@ -1,0 +1,68 @@
+body{
+    margin: 0 auto;
+}
+
+#navi{
+    width: 97%;
+    background-color: white;
+    display: flex;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 999;
+    border: 1px solid #EEEEEE;  
+}
+
+#navi >:last-child {
+    margin-left: auto;
+  }
+
+#sbox1{
+    width: 50%!important;
+    height: 40px;
+    border: 0;
+    border-radius: 4px;
+    color: #555;
+    background-color:#EEEEEE;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Helvetica Neue", "Helvetica", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", arial, sans-serif;
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+#dl_btn{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #00BFFF;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#username{
+    font-size: 16px;
+    color: #555;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+#content-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.pictures{
+    margin: 5px;
+    cursor : pointer;
+}
+
+.clicked{
+    margin: 3px;
+    border: 2px solid #00BFFF;
+    border-radius: 4px;
+}
